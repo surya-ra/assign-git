@@ -1,0 +1,15 @@
+1. What is a gitignore file and what should it include for a Java project?
+Ans- .gitignore is a text file which tells git about the files or folders it should ignore while uploading contents from local repo to the remote repository.
+For a netbeans java project, the git ignore should have class files(.class) and Package files(.jar, .war, .rar)
+
+2.What does fast-forward in Git mean?
+Ans- If master has not diverged, instead of creating a new commit, git will point master to the latest commit of the future branch.
+
+3. Why should you have different branches?
+Anw- Git branches are important because in a real world projects multiple people will be working of different features of a software. All the different features are the parts of a sing context. The single context is the master branch. Each  indipendent taks can be developed simultaenously and finally after testing can be merged with the main master context. This thing can be achieved using git branching.
+
+4. In a project how many remote Git repositories do you usually have?
+Ans- We can have multiple remote repositories attaced to a git project. One repository per project can be troublesome with growing size of the project. 
+	1. A single repository will be too large to be efficient.
+	2. Repositories are loosely couple or decoupled.
+	3. Different teams works on one repository, instead if we have muliple repositories per projet, each team can work on multiple repositories. This increases efficiency in the team.
